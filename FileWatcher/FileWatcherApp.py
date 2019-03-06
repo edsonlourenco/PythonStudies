@@ -48,3 +48,6 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         my_observer.stop()
     my_observer.join() 
+
+
+data = pd.read_excel('planilha.xls')
